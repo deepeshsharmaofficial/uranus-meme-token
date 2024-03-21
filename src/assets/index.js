@@ -38,6 +38,7 @@ import meme6 from "./collaboration/meme6.png";
 import meme7 from "./collaboration/meme7.png";
 import meme8 from "./collaboration/meme8.png";
 import meme9 from "./collaboration/meme9.png";
+import meme10 from "./collaboration/meme10.png";
 
 import wildsideofcrypto from "./wildsideofcrypto.png";
 import service1 from "./services/service-1.png";
@@ -93,6 +94,7 @@ export {
   meme7,
   meme8,
   meme9,
+  meme10,
   curve1,
   curve2,
   wildsideofcrypto,

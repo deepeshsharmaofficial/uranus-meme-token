@@ -21,6 +21,7 @@ import {
   meme7,
   meme8,
   meme9,
+  meme10,
 } from "../assets";
 
 export const navigation = [

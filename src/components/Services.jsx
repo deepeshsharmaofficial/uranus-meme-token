@@ -4,6 +4,7 @@ import { check } from "../assets";
 import { brainwaveServices } from "../constants";
 import { wildsideofcrypto } from "../assets";
 import { Gradient } from "./design/Services";
+import {meme10} from "../assets";
 
 const Services = () => {
   return (
@@ -19,7 +20,7 @@ const Services = () => {
                 width={800}
                 alt="The Memeifesto"
                 height={730}
-                src={wildsideofcrypto}
+                src={meme10}
               />
             </div>
 
@@ -46,22 +47,23 @@ const Services = () => {
           <div className="">
             <div className="flex flex-col p-4 bg-n-7 rounded-3xl" id="video">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Watch This To know More</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
+                <h4 className="h4 mb-12">All In On Uranus</h4>
+                {/* <p className="body-2 mb-[2rem] text-n-3">
                   Elon sues OpenAI, Apple's decline, TikTok ban, Bitcoin $100K?,
                   Science corner: Microplastics
-                </p>
-              </div>
+                </p> */}
+
 
               <div className="aspect-video">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/snbTCWL6rxo"
+                  src="https://www.youtube.com/embed/snbTCWL6rxo?loop=1&start=0&end=36"
                   title="E169: Elon sues OpenAI, Apple&#39;s decline, TikTok ban, Bitcoin $100K?, Science corner: Microplastics"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
               </div>
+            </div>
             </div>
           </div>
           <Gradient />
